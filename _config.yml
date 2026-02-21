@@ -1,0 +1,17 @@
+title: "Middle Tucky Left"
+description: "What Women Are Expected to Survive — and Why."
+url: "https://huntsbarger.github.io"
+baseurl: "/Middletucky-Left"
+permalink: /:title/
+
+markdown: kramdown
+
+plugins:
+  - jekyll-feed
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
